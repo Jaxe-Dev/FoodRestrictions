@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Animal Food Restrictions</name>
+  <author>Jaxe</author>
+  <targetVersion>1.0.0</targetVersion>
+  <description>Mod Version: 1.0\n\n\nUnlocks food restrictions for animals.\n\nThis mod does not provide any GUI to modify animal restrictions so a mod like RimHUD is needed to actually set the restrictions.</description>
+</ModMetaData>
