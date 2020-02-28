@@ -1,4 +1,4 @@
-﻿using Harmony;
+using HarmonyLib;
 using Verse;
 
 namespace FoodRestrictions
@@ -8,11 +8,11 @@ namespace FoodRestrictions
     {
         public const string Id = "FoodRestrictions";
         public const string Name = "Food Restrictions";
-        public const string Version = "1.0.0";
+        public const string Version = "1.1";
 
         static Mod()
         {
-            HarmonyInstance.Create(Id).PatchAll();
+            new Harmony(Id).PatchAll();
             Log("Initialized");
         }
 

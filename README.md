@@ -1,7 +1,7 @@
 # Animal Food Restrictions
-![Mod Version](https://img.shields.io/badge/Mod_Version-1.0-blue.svg)
-![RimWorld Version](https://img.shields.io/badge/Built_for_RimWorld-1.0-blue.svg)
-![Harmony Version](https://img.shields.io/badge/Powered_by_Harmony-1.2.0.1-blue.svg)\
+![Mod Version](https://img.shields.io/badge/Mod_Version-1.1-blue.svg)
+![RimWorld Version](https://img.shields.io/badge/Built_for_RimWorld-1.1-blue.svg)
+![Harmony Version](https://img.shields.io/badge/Powered_by_Harmony-2.0-blue.svg)\
 ![Steam Subscribers](https://img.shields.io/badge/dynamic/xml.svg?label=Steam+Subscribers&query=//table/tr[2]/td[1]&colorB=blue&url=https://steamcommunity.com/sharedfiles/filedetails/%3Fid=1547017052&suffix=+total)
 ![GitHub Downloads](https://img.shields.io/github/downloads/Jaxe-Dev/FoodRestrictions/total.svg?colorB=blue&label=GitHub+Downloads)
 

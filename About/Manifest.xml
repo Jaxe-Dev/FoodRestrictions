@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<Manifest>
-  <identifier>FoodRestrictions</identifier>
-  <version>1.0</version>
-  <manifestUri>https://raw.githubusercontent.com/Jaxe-Dev/FoodRestrictions/master/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/Jaxe-Dev/FoodRestrictions/releases/latest</downloadUri>
-</Manifest>

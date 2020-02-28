@@ -27,34 +27,25 @@
     <Compile Include="Mod.cs" />
     <Compile Include="Patch\RimWorld_Pawn_FoodRestrictionTracker_Configurable.cs" />
     <Compile Include="Patch\RimWorld_PawnComponentsUtility_AddAndRemoveDynamicComponents.cs" />
+    <Compile Include="Patch\Verse_BackCompatibility_PawnPostLoadInit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
       <Link>-\README.md</Link>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\.gitignore">
-      <Link>-\.gitignore</Link>
-    </Content>
     <Content Include="..\About\About.xml">
       <Link>-\About\About.xml</Link>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="..\LoadFolders.xml">
-      <Link>-\LoadFolders.xml</Link>
-    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.0.0.6\lib\net472\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.1.2552</Version>
-    </PackageReference>
-    <PackageReference Include="Lib.Harmony">
-      <Version>2.0.0.6</Version>
-    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
