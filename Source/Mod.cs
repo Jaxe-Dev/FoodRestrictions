@@ -8,7 +8,7 @@ namespace FoodRestrictions
   {
     public const string Id = "FoodRestrictions";
     public const string Name = "Food Restrictions";
-    public const string Version = "1.3"; // IS NEW
+    public const string Version = "1.3";
 
     static Mod()
     {
