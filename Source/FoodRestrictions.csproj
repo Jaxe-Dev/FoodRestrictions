@@ -41,6 +41,7 @@
     <None Include="release.targets" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patch\RimWorld_PawnUtility_TrySpawnHatchedOrBornPawn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Patch\RimWorld_Pawn_FoodRestrictionTracker_Configurable.cs" />
